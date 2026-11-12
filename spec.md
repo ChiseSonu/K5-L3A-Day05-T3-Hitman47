@@ -10,8 +10,12 @@
 
 
 ## §1. Lát cắt & phạm vi
-- Lát cắt (chép từ track).
-- 3 việc tính năng KHÔNG làm, mỗi việc một câu vì sao.
+- Lát cắt (chép từ track): Trong Đặt chỗ của tôi, khi hành khách vừa nhận tin chuyến bay bị huỷ và nhắn hỏi, AI đề xuất và giữ chỗ chuyến thay thế, hỏi lại cho rõ, đổi vé, hay chuyển nhân viên, để khách tới nơi kịp mà không mất vé hay tiền vì một thao tác không đảo lại được.
+
+- 3 việc tính năng KHÔNG làm, mỗi việc một câu vì sao:
+	- Không tự ý đổi chuyến bay khi chưa có xác nhận rõ ràng của hành khách. Vì việc đổi chuyến có thể làm mất quyền đổi vé miễn phí một lần và khó hoàn tác.
+	- Không tự ý gửi yêu cầu hoàn vé khi hành khách chưa xác nhận. Vì yêu cầu hoàn vé sau khi gửi không thể rút lại, có thể khiến hành khách mất cơ hội sử dụng vé.
+	- Không tự ý thay đổi thông tin cá nhân hoặc tên hành khách trên vé. Vì đây là thao tác nằm ngoài phạm vi các công cụ được cấp cho AI và có thể vi phạm quy định của hãng hàng không.
 
 ## §2. Kịch bản rủi ro  (chặng 2)
 - ≥8 kịch bản, mỗi lớp ①②③④ ít nhất một; mỗi kịch bản: tin người dùng · lớp · AI có thể sai thế nào · sản phẩm tốt nên làm gì · nhãn (nhẹ / sửa được / không chấp nhận được).
